@@ -13,7 +13,7 @@ It's very likely that I made the whole thing way harder than it needed to be, si
 
 This is what the turret looks like.
 
-![alt text]()
+![alt text](https://github.com/ph04/py-face-turret/blob/master/turret.jpg)
 
 # Requisites
 -Python 3.x
