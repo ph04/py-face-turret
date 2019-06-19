@@ -61,12 +61,12 @@ while True:
         right *= 4
         bottom *= 4
         left *= 4
-
+        
         x = (left + right) // 2
         y = (top + bottom) // 2
 
-        X = 180 - (x * 180 // 640 - 1)
-        Y = y * 180 // 480 - 1
+        X = 180 - (x * 180 // 640 - 1) # Check first lines for more details, these are nothing but proportions to scale the coordinates.
+        Y = y * 180 // 480 - 1 # If you didn't understand a single word, feel free to ask.
 
         values = {"x": f"{X:03}", "y": f"{Y:03}"}
 
@@ -76,7 +76,7 @@ while True:
         data = data.encode("ascii") # data should be bytes
         req = urllib.request.Request(url, data)
         with urllib.request.urlopen(req) as response:
-            the_page = response.read()
+            the_page = response.read() # probably useless idk
         
         font = cv2.FONT_HERSHEY_DUPLEX
 
