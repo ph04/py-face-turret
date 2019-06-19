@@ -11,6 +11,10 @@ It's very likely that I made the whole thing way harder than it needed to be, si
 
 `src/servos.ino` makes the Arduino able to receive commands from the Raspberry through a serial port, parses commands and sends them to the two servos that work as X and Y axis.
 
+This is what the turret looks like.
+
+![alt text]()
+
 # Requisites
 -Python 3.x
 
