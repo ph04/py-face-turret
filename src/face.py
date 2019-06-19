@@ -3,6 +3,8 @@
 # https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam_faster.py
 # This script is able to do the face tracking part and sends the commands to the Raspberry.
 # For further details check out the README.
+# Also this script works if your resolution is 640x480. If you have different numbers, change lines 68-69.
+# Also check your rotations, if the rotation is inverted in the X or the Y axis, change those lines with/without a `180 - (...)` before the calculus.
 
 import face_recognition
 import cv2
