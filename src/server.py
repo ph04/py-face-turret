@@ -12,8 +12,8 @@ class Server():
         print(self.x, self.y)
         
         # In this part you have to figure out how to connect your Rasperry to your Arduino through a serial port, it's very boring good luck.
-        # In my case it worked plugging the Arduino to the Raspberry in its USB port and the port seems to be called "ttyACM0" in my case
-        # you could try to do the same but it's easier to check out the name first.
+        # In my case it worked plugging the Arduino to the Raspberry in its USB port and the port seems to be called "ttyACM0"
+        # you could try to do the same but it's easier to check out your name.
         self.ser = serial.Serial("/dev/" + sys.argv[1], 9600) # ttyACM0
 
         for i in range(3):
