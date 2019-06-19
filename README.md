@@ -9,7 +9,7 @@ It's very likely that I made the whole thing way harder than it needed to be, si
 
 `src/server.py` hosts a server on the Raspberry, receives the commands from the previous script and sends the commands to the Arduino;
 
-`src/servos.py` makes the Arduino able to receive commands from the Raspberry through a serial port, parses commands and sends them to the two servos that work as X and Y axis.
+`src/servos.ino` makes the Arduino able to receive commands from the Raspberry through a serial port, parses commands and sends them to the two servos that work as X and Y axis.
 
 # Requisites
 -Python 3.x
