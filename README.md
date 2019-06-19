@@ -23,3 +23,7 @@ This is what the turret looks like.
 -Raspberry (I used a Raspberry Pi 3 B+)
 
 -Arduino (I used an Arduino Mega 2560)
+
+-two servos
+
+-various libraries
